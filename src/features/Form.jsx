@@ -48,14 +48,14 @@ export default function Form() {
     name: 'date',
   };
   return (
-    <form className="w-[736px] h-[551px] m-auto grid grid-cols-2 grid-rows-auto gap-4 border-2 rounded-lg">
+    <form className="w-[736px] h-[551px] m-auto grid grid-cols-2 grid-rows-auto gap-4 border-2 rounded-lg bg-white">
       <div className="col-span-2">
         <FormHeader />
       </div>
 
       {/* Text Row 1 */}
       <div className="flex flex-col items-center justify-center">
-        <label htmlFor="title" className="mr-auto ml-12 mb-2">
+        <label htmlFor="title" className="mr-auto ml-14 mb-2">
           Title
         </label>
         <TextInput {...titleProps} />

@@ -8,7 +8,7 @@ export default function DateTimeInput({ ...dateTimeProps }) {
         type="datetime-local"
         {...dateTimeProps}
         required
-        className="w-[620px] py-2 pl-12 pr-6 border-2 rounded-lg font-primary text-customBlue"
+        className="w-[620px] py-2 pl-12 pr-6 border-2 rounded-lg"
       />
     </div>
   );
