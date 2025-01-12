@@ -1,9 +1,7 @@
+import Form from './features/Form';
+
 function App() {
-  return (
-    <>
-      <p>Hello world</p>
-    </>
-  );
+  return <Form />;
 }
 
 export default App;
